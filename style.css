@@ -3,11 +3,11 @@
 	font-size: 18px;
 	width: 940px;
 	margin: 0 auto;
-	margin-top: 80px;
+	margin-top: 110px;
 }
 h1, h2 {color:#444; margin-bottom:0;}
-h1 {font-size: xx-large;}
-h2 {font-size:large;}
+h1 {font-size: 48px}
+h2 {font-size:24px;}
 header {
 	position: fixed;
 	top: 0;
@@ -50,4 +50,17 @@ header a {
 }
 header a:hover {
 	color:#DC934F;
+}
+aside {
+	background-color:#efefef;
+	border:solid 1px #ddd;
+	padding:10px;
+	overflow:hidden;
+}
+aside h2 {
+	margin:0;
+}
+aside img {
+	float:right;
+	margin:5px;
 }
